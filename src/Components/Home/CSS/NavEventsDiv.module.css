@@ -1,0 +1,12 @@
+.eventsDiv {
+  margin-top: 46px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newP {
+  font-family: "Rubik", sans-serif;
+  color: #f45725;
+}

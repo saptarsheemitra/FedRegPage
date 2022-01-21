@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap");
+.UcsmDiv {
+  margin: 30px 40px 60px 40px;
+}
+
+.upcomingEventsP {
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.RegDiv {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+}
+
+@media only screen and (max-width: 1230px) {
+  .RegDiv {
+    flex-direction: column;
+  }
+}

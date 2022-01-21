@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap");
+.HnDiv {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.marginDown {
+  margin-top: 100px;
+  padding-top: 10px;
+}
+
+#darkModeBody {
+  background-color: #0f0e0e;
+  color: #afafaf;
+}
+
+#h3TeamName,
+#h3TeamNameD {
+  margin-bottom: 20px;
+}
+#PTeamNameD,
+#h3TeamNameD {
+  color: white;
+}
+
+#PTeamName,
+#PTeamNameD {
+  margin-bottom: 10px;
+}
+
+#h3TeamName,
+#PTeamName {
+  color: black;
+}
+
+#darkModeNavBtn {
+  background-color: #0f0e0e;
+  color: #ffffff;
+}
+
+#darkModeNavBtn:hover {
+  background-color: #f45725;
+}
+
+#darkModeNavMoboW {
+  background-color: #0f0e0e;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.1);
+}
+
+#darkModeTitle {
+  color: #ffffff;
+}
+
+#darkModeEventBoxbg {
+  background-color: #1e1e1e;
+}
+
+#textDiv {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  backdrop-filter: blur(2px);
+  justify-content: center;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(202, 202, 202);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(182, 182, 182);
+}
+
+@media only screen and (max-width: 400px) {
+  #darkModeNavMoboW {
+    background-color: #1e1e1e;
+    box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.1);
+  }
+  .marginDown {
+    margin-top: 118px;
+  }
+}

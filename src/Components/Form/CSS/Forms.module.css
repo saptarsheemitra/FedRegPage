@@ -1,0 +1,107 @@
+.impTag {
+  outline: none;
+  width: 320px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: #afafaf;
+  padding: 12px;
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  margin-bottom: 30px;
+  transition: all 0.3s;
+}
+
+.impTag::-webkit-input-placeholder,
+.impTag:-ms-input-placeholder,
+.impTag::placeholder {
+  font-family: "Manrope", sans-serif;
+}
+
+.impTag:focus {
+  border-color: #f45725;
+}
+
+.radioDivMainMobo {
+  padding-left: 10px;
+}
+
+.lableTag {
+  display: block;
+  margin-bottom: 20px;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  color: #1e1e1e;
+}
+
+.RadioDiv {
+  margin-bottom: 24px;
+}
+
+.radioLable {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 8px;
+}
+
+input[type="radio"]:checked {
+  accent-color: #f45725;
+}
+
+.radioH2 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.radioInp {
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+#darkform {
+  background-color: #1e1e1e;
+  color: white;
+}
+#darkradio {
+  color: white;
+}
+
+.textInp {
+  position: relative;
+  padding-left: 10px;
+}
+
+.errorMsg {
+  position: absolute;
+  bottom: 45px;
+  left: 360px;
+  color: red;
+}
+
+.radioerr {
+  color: red;
+  position: relative;
+  top: -15px;
+}
+input[type="radio"] {
+  transform: scale(1.5);
+}
+@media only screen and (max-width: 900px) {
+  .errorMsg {
+    position: relative;
+    top: -20px;
+    left: 0px;
+    color: red;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .impTag {
+    width: 85%;
+  }
+}

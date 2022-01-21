@@ -1,0 +1,25 @@
+.mdiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.NeMNewDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.mP {
+  font-family: "Manrope", sans-serif;
+  font-size: 18.93px;
+  font-weight: 700;
+  color: #1e1e1e;
+  margin-bottom: 30px;
+}
+
+.newP {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 19.92px;
+  color: #f45725;
+}

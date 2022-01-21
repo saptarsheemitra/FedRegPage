@@ -1,0 +1,101 @@
+#mDiv,
+.cont {
+  display: none;
+}
+
+#darkModeNavMobo {
+  display: none;
+  background-color: #0f0e0e;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 900px) {
+  #darkModeNavMobo {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    width: 98%;
+    height: 812px;
+    z-index: 2;
+    background-color: #0f0e0e;
+    color: #ffffff;
+  }
+  .cont {
+    display: block;
+  }
+  #mDiv {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    width: 98%;
+    height: 812px;
+    z-index: 2;
+  }
+  .cont {
+    margin: 20px;
+  }
+  .closeBtnDiv {
+    margin-bottom: 37px;
+  }
+  .EventP {
+    font-family: "Manrope", sans-serif;
+    font-size: 18.93px;
+    font-weight: 700;
+    color: #1e1e1e;
+    margin-bottom: 30px;
+  }
+  .closeBtnMobo {
+    width: 18.38px;
+    height: 18.38px;
+    font-weight: 500;
+    background-color: transparent;
+    font-size: 18.38px;
+    border-style: none;
+  }
+  #darkModeHam {
+    background-color: #f7f7f7;
+  }
+  #darkX {
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #darkModeNavMobo {
+    width: 96%;
+  }
+  #mDiv {
+    width: 96%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #darkModeNavMobo {
+    width: 93%;
+  }
+  #mDiv {
+    width: 93%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #darkModeNavMobo {
+    width: 99%;
+  }
+  #mDiv {
+    width: 99%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #darkModeNavMobo {
+    width: 100%;
+  }
+  #mDiv {
+    width: 100%;
+  }
+}
