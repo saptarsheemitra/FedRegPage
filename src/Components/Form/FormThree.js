@@ -38,7 +38,7 @@ const FormThree = (props) => {
       setError("Email does not match");
       return;
     }
-    const url = "http://64.227.160.134:80/fedReg/checkMail";
+    const url = "https://64.227.160.134:80/fedReg/checkMail";
     const response = await axios.post(url, {
       clgmail: collegeMail.current.value,
     });
@@ -80,7 +80,7 @@ const FormThree = (props) => {
       setError("Email already used by a team member");
       return;
     }
-    const url = "http://64.227.160.134:80/fedReg/checkMail";
+    const url = "https://64.227.160.134:80/fedReg/checkMail";
     const response = await axios.post(url, {
       clgmail: collegeMail.current.value,
     });
@@ -125,15 +125,15 @@ const FormThree = (props) => {
       setError("Email already used by a team member");
       return;
     }
-    // const url = "http://64.227.160.134:80/fedReg/checkMail";
-    // const response = await axios.post(url, {
-    //   clgmail: collegeMail.current.value,
-    // });
-    // if (response.data.error) {
-    //   setError(response.data.error);
-    //   console.log(response.data.error);
-    //   return;
-    // }
+    const url = "https://64.227.160.134:80/fedReg/checkMail";
+    const response = await axios.post(url, {
+      clgmail: collegeMail.current.value,
+    });
+    if (response.data.error) {
+      setError(response.data.error);
+      console.log(response.data.error);
+      return;
+    }
     //add third member to the state
     dispatch({
       type: "thirdMemberDetails",

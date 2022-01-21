@@ -168,8 +168,8 @@ const Footer = () => {
           <p>Copyright &copy; 2022</p>
         </div>
         <div className={FCss.rightDivTail}>
-          <p>To boost the confidence of aspiring entrepreneurs worldwide.</p>
-          <p align="right">Together we can change the world.</p>
+          <p id={FCss.Confidence}>To boost the confidence of aspiring entrepreneurs worldwide.</p>
+          <p className={FCss.Desktop}>Together we can change the world.</p>
         </div>
       </div>
     </footer>
