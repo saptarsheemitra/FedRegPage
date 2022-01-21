@@ -29,6 +29,10 @@
   border-style: none;
   color: #f45725;
   cursor: pointer;
+  
+}
+#btnBugFix{
+  display: contents;
 }
 
 #darkmodal {

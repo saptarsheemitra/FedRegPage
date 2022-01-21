@@ -53,7 +53,7 @@ const Modal = (props) => {
             {form === "third" && <FormThree formState={setForm} />}
             {form === "fourth" && <FormFour formState={setForm} />}
             {form === "submitted" && <FormSubmitted />}
-            <button onClick={closeModal}>
+            <button onClick={closeModal} id="btnBugFix">
               <HighlightOffIcon fontSize="large" className="closeBtn" />
             </button>
           </div>
