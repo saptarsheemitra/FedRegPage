@@ -2,7 +2,7 @@ footer {
   background: none;
   background-color: #1e1e1e;
   color: white;
-  width: 98%;
+  width: 95%;
   height: auto;
   padding: 40px;
 }
@@ -225,13 +225,16 @@ li {
   .Desktop {
     text-align: center;
   }
+  footer {
+    width: 91%;
+  }
 }
 
-@media only screen and (max-width: 1380px) {
+/* @media only screen and (max-width: 1380px) {
   footer {
     width: 95%;
   }
-}
+} */
 
 @media only screen and (max-width: 800px) {
   .leftDiv {
