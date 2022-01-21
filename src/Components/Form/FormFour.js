@@ -50,12 +50,12 @@ const FormFour = (props) => {
     console.log("the object");
     console.log(obj);
 
-    // const url = "http://64.227.160.134:80/fedReg/saveData";
-    // const response = await axios.post(url, obj);
-    // if (response.data.error) {
-    //   console.log(response.data.error);
-    //   return;
-    // }
+    const url = "https://64.227.160.134:80/fedReg/saveData";
+    const response = await axios.post(url, obj);
+    if (response.data.error) {
+      console.log(response.data.error);
+      return;
+    }
     props.formState("submitted");
   };
 

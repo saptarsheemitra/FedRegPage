@@ -188,6 +188,14 @@ li {
   flex-direction: column;
 }
 
+#Confidence {
+  text-align: center;
+}
+
+.Desktop{
+  text-align: right;
+}
+
 @media only screen and (max-width: 1200px) {
   .socialMobo {
     opacity: 1;
@@ -214,7 +222,7 @@ li {
     margin-bottom: 10px;
     text-align: center;
   }
-  .rightDivTail {
+  .Desktop {
     text-align: center;
   }
 }
@@ -278,5 +286,8 @@ li {
   }
   .mailMobo {
     width: 90%;
+  }
+  #Desktop {
+    background-color: #f45725;
   }
 }
