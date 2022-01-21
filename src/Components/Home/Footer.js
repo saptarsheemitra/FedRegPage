@@ -165,11 +165,11 @@ const Footer = () => {
         <div className={FCss.leftDivTail}>
           <p>Made with ❤️</p>
           <p>from Federation of Entrepreneurship Development </p>
+          <p>Copyright &copy; 2022</p>
         </div>
         <div className={FCss.rightDivTail}>
           <p>To boost the confidence of aspiring entrepreneurs worldwide.</p>
-          <p>Together we can change the world.</p>
-          <p>Copyright 2022</p>
+          <p align="right">Together we can change the world.</p>
         </div>
       </div>
     </footer>
