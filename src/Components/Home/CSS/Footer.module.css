@@ -22,14 +22,14 @@ footer {
 }
 
 .Img {
-  width: 57.53px;
-  height: 57.53px;
+  width: 28.26px;
+  height: 28.26px;
 }
 
 .fedN {
-  margin-left: 30px;
+  margin-left: 8.19px;
   font-family: "Rubik", sans-serif;
-  font-size: 30px;
+  font-size: 24px;
   color: white;
   text-shadow: 1px 0.496831px 1px #f45725;
 }
@@ -81,7 +81,7 @@ li {
 }
 
 .flex1 {
-  margin: 15px;
+  /*margin: 15px;*/
   justify-content: space-between;
 }
 
@@ -249,8 +249,8 @@ li {
 @media only screen and (max-width: 500px) {
   .socialIcons,
   .socialIconsLast {
-    width: 24px;
-    height: 24px;
+    width: 21px;
+    height: 21px;
   }
   .socialIcons {
     margin-right: 10px;
@@ -259,7 +259,7 @@ li {
     width: 90%;
   }
   .footerTail {
-    margin-right: 20px;
+    margin-right: 21.5px;
   }
 }
 
