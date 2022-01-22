@@ -17,7 +17,7 @@ const Modal = (props) => {
   const [form, setForm] = useState("first");
   const closeModal = () => {
     localStorage.clear();
-    dispatch({ type: "clearReduxState" });
+    // dispatch({ type: "clearReduxState" });
     props.modal(false);
   };
   const themeAttribute = isLightTheme
