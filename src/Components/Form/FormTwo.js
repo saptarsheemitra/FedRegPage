@@ -57,8 +57,8 @@ const FormTwo = (props) => {
       return;
     }
 
-    // CHECK DATABASE FOR DUPLICATE EMAIL
-    const url = "https://64.227.160.134/fedReg/checkBoth";
+    //CHECK DATABASE FOR DUPLICATE EMAIL
+    const url = "http://64.227.160.134/fedReg/checkBoth";
     const response = await axios.post(url, {
       clgmail: collegeMailRef.current.value,
       teamname: teamNameRef.current.value,
